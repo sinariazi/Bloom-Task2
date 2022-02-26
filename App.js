@@ -9,8 +9,6 @@ function subArraySum(inputArr, desiredSum)
 {
 	let curr_sum = inputArr[0], start = 0;
   let length = inputArr.length;
-
-	// Pick a starting point
 	for (let i = 1; i <= length; i++)
 	{
 		while (curr_sum > desiredSum && start < i - 1)
@@ -29,7 +27,6 @@ function subArraySum(inputArr, desiredSum)
 	console.log("No subarray equal to desiredSum has been found");
 	return 
 }
-	
 let inputArr=[5,4,3,9,7,2,4,61,7,88];
 let desiredSum = 16;
 subArraySum(inputArr,desiredSum);
