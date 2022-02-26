@@ -1,2 +1,2 @@
 # Bloom-Task2
-Task: Find a neighbouring subarray of the given sum
+Find a neighbouring subarray of the given sum from a list of positive integers and show the range (start-index, length)  and member of SubArray
